@@ -1,6 +1,6 @@
 # DGCN
 
-This is the code of the paper __'A dynamic graph convolutional neural network framework reveals new insights into connectome dysfunctions in ADHD'__
+This is the code of the paper __'A dynamic graph convolutional neural network framework reveals new insights into connectome dysfunctions in ADHD'__Kanhao Zhao, Boris Duka, Hua Xie, Desmond J Oathes, Vince Calhoun, Yu Zhang
 https://www.sciencedirect.com/science/article/pii/S1053811921010466
 
 Feel free to use and cite, if it is helpful
