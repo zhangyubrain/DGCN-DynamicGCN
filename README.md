@@ -9,8 +9,9 @@ Some of the codes were partly modified from Prof Xiaoxiao's work. https://github
 
 Run main.py and modify the path and hyperparameter based on your task.
 
-Testing environment:
-RTX 3090
-torch 1.10.2
-torch_sparse 0.6.15
-torch_geometric 2.1.0
+Testing environment:<br />
+RTX 3090<br />
+torch 1.10.2<br />
+torch_sparse 0.6.15<br />
+torch_geometric 2.1.0<br />
+torch_cluster 1.6.0
