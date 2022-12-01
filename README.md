@@ -1,7 +1,8 @@
 # DGCN
 
-This is the code of the paper __'A dynamic graph convolutional neural network framework reveals new insights into connectome dysfunctions in ADHD'__Kanhao Zhao, Boris Duka, Hua Xie, Desmond J Oathes, Vince Calhoun, Yu Zhang
-https://www.sciencedirect.com/science/article/pii/S1053811921010466
+##References
+Zhao, K., Duka, B., Xie, H., Oathes, D. J., Calhoun, V., & Zhang, Y. (2022). [A dynamic graph convolutional neural network framework reveals new insights into connectome dysfunctions in ADHD](https://www.sciencedirect.com/science/article/pii/S1053811921010466
+). Neuroimage, 246, 118774.
 
 Feel free to use and cite, if it is helpful
 
