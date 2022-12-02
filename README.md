@@ -20,4 +20,4 @@ torch_geometric 2.1.0<br />
 torch_cluster 1.6.0
 
 ## Acknowledge
-Some of the codes were partly modified from Prof Xiaoxiao's work. https://github.com/xxlya/PRGNN_fMRI
+Some of the codes were partly modified from Dr. Xiaoxiao Li's work. https://github.com/xxlya/PRGNN_fMRI
