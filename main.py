@@ -222,9 +222,7 @@ def main():
     dataset = copy.deepcopy(datasets[mask])
     ########multiple trials
     numbers = list(range(0,10))
-    
-    # numbers = [1]
-    
+        
     for number in numbers:
         tr_Rindex,val_Rindex,te_Rindex = site_split(labels=dataset.data.y[mask].tolist(), pcd = dataset.data.pcd[mask].tolist(), kfold = opt.fold, number = number)
         # tr_Rindex,val_Rindex,te_Rindex = site_split(labels=dataset.data.y.tolist(), pcd = dataset.data.pcd.tolist(), kfold = opt.fold, number = number)
@@ -234,11 +232,7 @@ def main():
         save_number = listdir(root_fold)
         del save_number[-1]
         last_number =max(map(int, save_number))
-        # if listdir(root_fold+str(last_number))!=[]:
         n = last_number+1
-        # else:
-        #     n = last_number
-        # n = n + 5
         save_file = root_fold + str(n) 
         f_file = root_fold+'prediction/' + str(n) + '_' + str(number)
         img_file = 'result/ROC/'+ str(n) + '_' + str(number)
