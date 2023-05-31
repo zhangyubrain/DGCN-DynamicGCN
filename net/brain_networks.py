@@ -151,6 +151,7 @@ class GNN(nn.Module):
         x_1_1 = self.bn1(x_1_1)
         
         x_1 = x_1 + x_1_1
+        # x_1 = torch.cat([x_1, x_1_1], dim=1)
         
         edge_index_2hop = self.get_2hop_idx(x, edge_index, batch)
         edge_index_2hop, _ = dropout_adj(edge_index_2hop, p=0.3,training=self.training)
@@ -175,6 +176,7 @@ class GNN(nn.Module):
         x_2_2 = self.conv2_2(x, e2_2hop)
         x_2_2 = self.bn2(x_2_2)
         x_2 = x_2 + x_2_2
+        # x_2 = torch.cat([x_2, x_2_2], dim=1)
         h2= x_2.view(x.shape[0]//116,116)
          
         fea = torch.cat([h1, h2], dim=-1)
